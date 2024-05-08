@@ -131,6 +131,7 @@ without_prerelease() {
 
 # Check for newer versions
 # Skip by setting the VERSION_LATEST_REQUIRED environment variable to "false"
+VERSION_LATEST_REQUIRED=false
 ALL_AT_VERSION_LATEST=true
 version_latest() {
   if [ "$VERSION_LATEST_REQUIRED" == "false" ]; then
