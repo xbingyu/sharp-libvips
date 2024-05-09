@@ -557,6 +557,7 @@ mv lib-filtered lib
 tar chzf ${PACKAGE}/libvips-${VERSION_VIPS}-${PLATFORM}.tar.gz \
   include \
   lib \
+  bin \
   *.json \
   THIRD-PARTY-NOTICES.md
 
